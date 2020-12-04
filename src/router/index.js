@@ -1,15 +1,15 @@
-import { createRouter, createWebHistory } from '@ionic/vue-router';
+import { createRouter, createWebHistory } from "@ionic/vue-router";
 
 const routes = [
   {
-    path: '/',
-    redirect: '/home'
+    path: "/",
+    redirect: "/home",
   },
-]
+];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;
